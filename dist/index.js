@@ -1,6 +1,6 @@
 import express from 'express';
 import os, { hostname } from 'os';
-const app = express();
+export const app = express();
 app.get('/health', (req, res) => {
     res.status(200).send("hi there");
     return;

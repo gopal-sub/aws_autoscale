@@ -4,7 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "npx tsc -b && node ./dist/index.js"
+    "dev": "npx tsc -b && node ./dist/index.js",
+    "mas": "npx tsc -b && node ./dist/master.js",
+    "num": "npx tsc -b && node ./dist/sumcal.js"
   },
   "keywords": [],
   "author": "",
